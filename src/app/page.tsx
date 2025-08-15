@@ -1,13 +1,23 @@
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+import Section1 from "@/components/Sections/Section1";
+import Section2 from "@/components/Sections/Section2";
+import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
-    <div className="bg-gray-400 h-[100vh]">
-      <div className="bg-orange-600 w-[50%] h-[400px] p-[1px] absolute bottom-0 z-[-1]"></div>
-      <div className="bg-[#00aa00] w-[50%] h-[400px] p-[1px] z-10">
-        <div className="bg-[#f0f0f0] h-[100vh] m-2 w-[100vw] ml-4">
-          <Navbar />
+    <div>
+      <div className="absolute bg-[#C0C0C0] w-[100%] h-[100%] z-0"></div>
+      <div className="absolute w-[50%] h-[350px] bg-[#4CBB17] z-10"></div>
+      <div className="absolute w-[50%] h-[350px] bg-[#CD7F32] bottom-0 right-0 z-10"></div>
+
+      <div className="absolute top-2 left-[12px] right-[12px] bottom-2 bg-white z-20 flex flex-col">
+        <Navbar />
+        <div className="h-full flex">
+          <Sidebar />
+          <div className="w-[96%] bg-gray-200 ">
+            <Section1 />
+            <Section2 />
+          </div>
         </div>
       </div>
     </div>
