@@ -8,7 +8,7 @@ const ToDos = () => {
       {/* Heading */}
       <div className="h-[50px] flex bg-slate-100 p-4 items-center justify-between shadow">
         <h3 className="text-[#092e64] font-bold flex gap-2 justify-center items-center">
-          To-Do's{" "}
+          To-Do&#39;s{" "}
           <span className="w-[30px] h-[30px] border rounded-full px-[5px] py-1 bg-red-600 text-white text-[12px]">
             24
           </span>
@@ -36,8 +36,8 @@ const ToDos = () => {
         <div className="self-start w-full flex justify-between items-center flex-col">
           <div className="flex justify-between items-center w-full pb-2">
             <p className="text-gray-600 text-[14px]">
-              Ramesh Shankar's birthday is tomorrow 23/11/2016, Don't Forget to
-              Wish Him!
+              Ramesh Shankar&#39;s birthday is tomorrow 23/11/2016, Don&#39;t
+              Forget to Wish Him!
             </p>
             <button className=" text-[#092e64] text-[14px] rounded font-semibold">
               Wish Now

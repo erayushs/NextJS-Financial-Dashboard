@@ -1,6 +1,4 @@
 import React from "react";
-import TransactionSnapshot from "../TransactionSnapshot";
-import ToDos from "../ToDos";
 import AssetsUnderMangement from "../AssetsUnderMangement";
 import NseBse from "../NseBse";
 
